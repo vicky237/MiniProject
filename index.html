@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Mini Project</title>
+</head>
+<body>
+  <section>
+    <h3>Question 1</h3>
+    <p>Write a program to make a To-Do List which has the following functions:
+        a. Add
+        b. Remove
+        c. Should store the data in local storage
+    </p>
+    
+  <p>If you wanna remove from ToDo list just drag and drop Total List</p>
+    <div >
+  <div class="container" id="toDoList">
+   <p>To Do list</p>
+  </div>
+  <div class="container">
+    <p>Total List</p>
+    <p class="draggable" draggable="true">Gym</p>
+    <p class="draggable" draggable="true">Yoga</p>
+    <p class="draggable" draggable="true">Walk</p>
+    <p class="draggable" draggable="true">Running</p>
+  </div>
+  </div>
+  
+</section>
+
+<section  style="margin-top:30%">  
+  <h3>Question 2</h3>
+  <p>Write a program to make a Stopwatch. Which takes the timer to be set from the user</p>
+
+  <div>
+    <div class="controls">
+			<a href="#" class="button" onClick="stopwatch.start();">Start</a>
+			<a href="#" class="button" onClick="stopwatch.lap();">Lap</a>
+			<a href="#" class="button" onClick="stopwatch.stop();">Stop</a>
+			<a href="#" class="button" onClick="stopwatch.restart();">Restart</a>
+			<a href="#" class="button" onClick="stopwatch.clear();">Clear Laps</a>
+		</div>
+		<div class="stopwatch"></div>
+		<ul class="results"></ul>
+  </div>
+</section>
+<section>
+
+  <div class="container1">
+		<div class="row">
+			<div class="col-lg-12">
+				<button id="generate-quote" class="btn btn-default btn-lg center-block" type="button" onclick=gen();>Generate Random Quote</button>
+				<div class="quote-box">
+					<p><strong><span id="quote"></span></strong><br>&mdash; <em><span id="author"></span></em></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</body>
+</html>
